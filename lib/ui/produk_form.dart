@@ -31,7 +31,7 @@ class _ProdukFormState extends State<ProdukForm> {
   void isUpdate() {
     if (widget.produk != null) {
       setState(() {
-        judul = "Ubah Produk";
+        judul = "Ubah Produk Tansah";
         tombolSubmit = "UBAH";
 
         _kodeProdukTextboxController.text = widget.produk!.kodeProduk ?? '';
